@@ -1,0 +1,23 @@
+{
+  "name": "@aruuhii2yo/maxion-mcp-gateway",
+  "mcpName": "io.github.aruuhii2yo/maxion-mcp-gateway",
+  "version": "16.4.0",
+  "description": "Enterprise MCP gateway — 19 tools across thermal performance management (Maxion V16), zero-trust security (Diamonize LSA), AES-256-GCM encrypted storage (Quezar), and AI video/image generation (Lineage.0 VC). Auto-activated 60-minute free trial, no config required.",
+  "main": "index.js",
+  "bin": {
+    "maxion-mcp-gateway": "./index.js"
+  },
+  "keywords": ["mcp", "model-context-protocol", "thermal-management", "security", "encrypted-storage", "ai-video"],
+  "license": "MIT",
+  "homepage": "https://advancedapparchitect.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aruuhii2yo/maxion-mcp-public"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
